@@ -1,0 +1,119 @@
+body{
+    background-image: url("photos/BackGround\ 1.jpg");
+    background-repeat: no-repeat;
+    background-repeat: cover;
+    
+h1{
+    color: #fd09b0;
+    font-size: 100px;
+    font-family: cursive;
+    text-align: center;
+}
+p{
+    color: #0a0a0a;
+    font-size: 50px;
+    font-family: cursive;
+    text-align: center;
+}
+
+
+.header {
+    overflow: hidden;
+    background-color: rgb(248, 90, 169);
+    /*padding: 20px 10px;*/
+  }
+
+  .header img{
+    height: 50px;
+    width: 50px;
+  }
+  
+
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    background-color: Black;
+    color: White;
+  }
+
+  .header a.active {
+    background-color: rgba(251, 168, 212, 0.973);
+    color: white;
+  }
+  
+  /* Float the link section to the right */
+  .header-Right {
+    float: right;
+  }
+
+/* START OF SECTION */
+section .section-content h1 , h2{
+  color:  #f649a8;
+  font-size: 100px;
+  font-family: Arial;
+  text-align: center;
+}
+
+/* END OF SECTION STYLE */
+
+.footer{
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(9, 6, 64);
+  color: black;
+  font-size: 10px;
+  text-align: center;
+}
+#context ul {
+  font-size: 35px;
+  font-family: cursive;
+  text-align: left;
+  color: #990efc;
+}
+#context img {
+  width: 250px;
+  height: 250px;
+  display: block;
+  margin-left: auto;
+margin-right: auto;
+}
+
+#text p2{
+  font-size: 35px;
+  font-family: cursive;
+  text-align: center;
+  color: #e20d7b;
+}
+#text list-style:
+color: .section-content;
+color: rgb(17, 17, 17);
+
+#services p3{
+  font-size: 50px;
+  font-family: cursive;
+  text-align: center;
+  color: #0e0d0d
+
+}
